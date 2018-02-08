@@ -1,5 +1,6 @@
 package com.nirupam.myapp7;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -137,6 +138,14 @@ public class MainActivity extends AppCompatActivity {
 
         linearLayout.setVisibility(View.INVISIBLE);
 
+
+    }
+
+    public void mainMenu(View view){
+
+        Intent intent3 = new Intent(this , Main3Activity.class);
+
+        startActivity(intent3);
 
     }
 

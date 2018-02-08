@@ -28,6 +28,13 @@
             android:layout_height="wrap_content"
             android:onClick="playAgain"
             android:text="PlayAgain" />
+
+        <Button
+            android:id="@+id/mainMenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="mainMenu"
+            android:text="mainMenu" />
     </LinearLayout>
 
     <GridLayout
